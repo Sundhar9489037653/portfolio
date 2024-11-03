@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sundhar portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9d4593c6e3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#internship">Internship</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>    
+                <div class="header-text">
+                    <h1>Hi,I'm <span>Sundhar</span><br> From Theni,Tamilnadu</h1>
+
+                </div>
+            </div>
+        </div>
+        <!-----------about----------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/4.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello! I'm sundhar, I am an organised, efficient and hard working person,
+                            and i am willing to discover and accept new ideas which can be put into paractice
+                            effectively. I am a good listener and learner, able to communicate well with a group
+                            and on a individual level. I am able to motivate and direct my talents and skills
+                            to meet objectives.<br>
+                            <br>
+                            I'm always excited about new opportunities and challenges-let's connect and create
+                            something amazing together.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Electric Works</span><br>Electrician</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Simulation</span><br>Designing in Matlab</li>
+                                <li><span>Electronics works</span><br>Designing circuit</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Fresher</span><br>0</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025 [B.E(EEE)]</span><br>Theni Kammavar sangam college of technology</li>
+                                <li><span>2021 [HSC]</span><br>Theni Kammavar sangam matric hr.sec.school</li>
+                                <li><span>2019 [SSLC]</span><br>velankanni matha matric hr.sec school</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------internship---------->
+        <div id="internship">
+            <div class="container">
+                <h1 class="sub-title">My Internship</h1>
+                <div class="internship-list">
+                    <div>
+                        <i class="fa-solid fa-plug-circle-check"></i>
+                        <h2>Electric Works</h2>
+                        <p>I successfully completed my training in Non Stop Eletric Works for 30 days</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-earth-oceania"></i>
+                        <h2>Shrink Polymers</h2>
+                        <p>I successfully completed my internship at packaging material manufacturing industry
+                            M/s. Shri Natraya Shrink Polymers.
+                        </p>
+                        <a href="#">Learn more</a>   
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-solar-panel"></i>
+                        <h2>Solar Panel Energy Production</h2>
+                        <p>I successfully completed my training in CleanMax Enviro Energy Solution for 30 days </p>
+                        <a href="#">Learn more</a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------project----------->
+        <div id="project">
+            <div class="container">
+                <h1 class="sub-title">My Project</h1>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/EV project.jpg">
+                        <div class="layer">
+                            <h3>Wireless Charging Electric Vehicle During Motion By Using Solar</h3>
+                            <p>The primary objective is to eliminate the need for stationary charging stops,
+                                extending vehicle range and reducing reliance on large battery capacities.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/home automation project.jpg">
+                        <div class="layer">
+                            <h3>Arduino Based Home Automation Controlled By SmartPhone</h3>
+                            <p>An arduino-based home automation system controlled by a smartphone offers a 
+                                cost-effective, customizable solution for managing household devices and appliance.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!---------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sundhar2334@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9489037653</p>
+                <div class="social-icons">
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sundhar. Made with <i class="fa-solid fa-heart"></i> by Sundhar</p>
+    </div>
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+            
+            for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+            
+            function openmenu(){
+               sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw7L8OpFWAGo7ctKsysOo_n5V73hM6SQLQifGXaAGdAtiDUYh421SWO_Ryg0z8RlQVq/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>
